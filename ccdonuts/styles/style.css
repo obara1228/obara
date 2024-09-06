@@ -1,0 +1,510 @@
+@charset "utf-8";
+/*ブレイクポイント768px*/
+@media screen and (max-width: 768px) {
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden; /* 横スクロールを禁止 */
+}
+
+body {
+	font-family:'Noto Sans JP',sans-serif;	
+}
+
+/* ナビゲーション */
+nav {
+	background-color: #EDE0D4;
+	position: relative;
+}
+
+
+.menuicon .icon {
+	width: 62px;
+	height: 53px;
+ 	margin:  0 156px 61px 157px;
+	padding: 16px 0 0 0;
+}
+
+.menuicon .rogin{  /*  ログインボタン*/
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	top: 24px;
+	left: 281px;
+}
+
+.menuicon .cart{  /* カートボタン */
+	position: absolute;
+	width: 30px;
+	height: 35px;
+	top: 24px;
+	left: 333px;
+}
+
+.form-box{ /* 検索ボックス */
+	display: flex;
+	border: 2px solid #7f5539;
+	background-color: #FFFFFF;
+	width: 351px;
+	height: 37px;
+	margin: 0 12px;
+}
+
+.form-input{
+	border: none;
+	width: 100%;
+}
+
+.form-button{
+	background-color: #D9D9D9;
+	border: 0 2px 0 0 solid #7f5539;
+}
+
+/* セクション１ */
+main .section1 .text1{
+	width: 375px;
+	height: 36px;
+	font-size: 12px;
+	padding: 12px 247px 12px 20px;
+}
+
+main .section1 .hero img {
+	width: 375px;
+	height: 200px;
+}
+
+/* ２カラム */
+.section1 .column{
+	display: flex;
+	justify-content:  center;
+	position: relative;
+}
+
+.section1img{
+	flex: 1;
+	width: 157.5px;
+	height: 157px;
+	margin: 20px 10px 20px 10px;
+}
+
+.section1img img {
+	max-width: 100%; /* 幅を最大に */
+}
+
+.section1img .text2 {  /* 新商品 */
+	position: absolute;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	flex-flow: column; 
+	vertical-align: top;
+	background-color: #FF8877;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	width: 24px;
+	height: 24px;
+	padding: 24px;
+	top: 24px;
+	left: 24px;
+	white-space:nowrap;
+}
+
+.section1img .text3 {  /* サマーシトラス */
+	position: absolute;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 141px 4px 4px 69.5px;
+}
+
+.section1img .text4 {  /* ドーナツのある生活 */  
+	position: absolute;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 129px 24px 16px 25.5px;
+}
+
+.menu {
+	background-image: url(../images/pc/donatsimage.png);
+	background-size: cover;
+	width: 335px;
+	height: 83px;
+	margin: 20px 20px 21px 20px;
+}
+
+.menu p {
+	font-size: 12px;
+	color: #7F5539;
+	padding: 67px 4px 4px 283px;
+}
+
+.section2 {
+	position: relative;
+	background-image: url(../images/pc/heroimage2.png);
+	background-size: cover;
+	background-position: center;
+	width: 375px;
+	height: 568px;
+}
+.section2 .section2text1{
+	font-size: 24px;
+	color: #FFFFFF;
+	padding: 100px 119px 0px 119px;
+}
+
+.section2 h4 {
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 20px 139px 0 140px;
+}
+.section2 h3 {
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 60px 74px 0 75px;
+}
+
+.section2 p {
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 12px 99.5px 0;
+}
+
+.section3 h2 { /* 人気ランキング */
+	font-size: 20px;
+	color: #000000;
+	white-space:nowrap;
+	padding: 31px  0 12px 0;
+	margin: 0 117px 0 118px;
+	border-bottom: 2px solid #FFD233;
+	width: 140px;
+}
+
+.section3 .column1 {
+	display: flex;
+	justify-content: center;
+}
+
+.Donuts1 .rank1 {
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #FFD233;
+	width: 35px;
+	height: 35px;
+	margin: 80px 81.5px 0 81px;
+}
+
+.Donuts2 .rank2{
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #CCCCCC;
+	width: 34.94px;
+	height: 35px;
+	margin: 80px 81.28px 0 81.28px;
+}
+
+.Donuts1 img { 
+	max-width: 100%;
+	padding: 20px 10px 0 20px;
+}
+
+.Donuts2 img {
+	max-width: 100%;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts1 .menu1{
+	font-size: 16px;
+	color: #7F5539;
+	padding: 20px 0 0 20px;
+}
+
+.Donuts2 .menu2{
+	font-size: 16px;
+	color: #7F5539;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts1 .prise1{
+	font-size: 16px;
+	color: #BF0000;
+	padding: 20px 0 0 20px;
+}
+
+.Donuts2 .prise2{
+	font-size: 16px;
+	color: #BF0000;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts1 .cart1 {  /* クラス変更 */
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #7F5539;
+	margin: 20px 12px 0 25px;
+	padding: 12px 0 12px 0;
+}
+
+.Donuts2 .cart2 {  /* クラス変更 */
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #7F5539;
+	margin: 20px 24.75px 0 12px;
+	padding: 12px 0 12px 0;
+}
+
+.section3 .column2 {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.Donuts3 .rank3 {
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #D27C2C;
+	width: 35px;
+	height: 35px;
+	margin: 80px 81.5px 0 81px;
+}
+
+.Donuts4 .rank4{
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #E8C2CA;
+	width: 34.94px;
+	height: 35px;
+	margin: 80px 81.28px 0 81.28px;
+}
+
+.Donuts3 img { 
+	max-width: 100%;
+	padding: 20px 10px 0 20px;
+}
+
+.Donuts4 img {
+	max-width: 100%;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts3 .menu3{
+	font-size: 16px;
+	color: #7F5539;
+	padding: 20px 10px 0 20px;
+}
+
+.Donuts4 .menu4{
+	font-size: 16px;
+	color: #7F5539;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts3 .prise3{
+	font-size: 16px;
+	color: #BF0000;
+	padding: 20px 0 0 20px;
+}
+
+.Donuts4 .prise4{
+	font-size: 16px;
+	color: #BF0000;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts3 .cart3 {  /* クラス変更 */
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #7F5539;
+	margin: 20px 12px 0 25px;
+	padding: 12px 0 12px 0;
+}
+
+.Donuts4 .cart4 {  /* クラス変更 */
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #7F5539;
+	margin: 20px 24.75px 0 12px;
+	padding: 12px 0 12px 0;
+}
+
+.section3 .column3 {
+	display: flex;
+	justify-content: center;
+}
+
+.Donuts5 .rank5 {
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #E8C2CA;
+	width: 35px;
+	height: 35px;
+	margin: 80px 81.5px 0 81px;
+}
+
+.Donuts6 .rank6{
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #E8C2CA;
+	width: 34.94px;
+	height: 35px;
+	margin: 80px 81.28px 0 81.28px;
+}
+
+.Donuts5 img { 
+	max-width: 100%;
+	padding: 20px 10px 0 20px;
+}
+
+.Donuts6 img {
+	max-width: 100%;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts5 .menu5{
+	font-size: 16px;
+	color: #7F5539;
+	padding: 20px 10px 0 20px;
+}
+
+.Donuts6 .menu6{
+	font-size: 16px;
+	color: #7F5539;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts5 .prise5{
+	font-size: 16px;
+	color: #BF0000;
+	padding: 20px 0 0 20px;
+}
+
+.Donuts6 .prise6{
+	font-size: 16px;
+	color: #BF0000;
+	padding: 20px 20px 0 10px;
+}
+
+.Donuts5 .cart5 {  /* クラス変更 */
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #7F5539;
+	margin: 20px 12px 82.4px 25px;
+	padding: 12px 0 12px 0;
+}
+
+.Donuts6 .cart6 {  /* クラス変更 */
+	display:flex;  /*テキストを中央揃えに*/
+	justify-content:center;
+	align-items:center;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #7F5539;
+	margin: 20px 24.75px 82.4px 12px;
+	padding: 12px 0 12px 0;
+}
+
+.section4 {
+background-color: #EDE0D4;
+}
+
+.gaidtext1 {
+	font-size: 12px;
+	color: #7F5539;
+	border-left: 2px solid #B392AC;
+	margin: 20px 243px 0 12px;
+
+}
+
+.gaidtext2 {
+	font-size: 12px;
+	color: #7F5539;
+	border-left: 2px solid #B392AC;
+	margin: 20px 243px 0 12px;
+
+}
+.gaidtext3 {
+	font-size: 12px;
+	color: #7F5539;
+	border-left: 2px solid #B392AC;
+	margin: 20px 243px 0 12px;
+}
+
+.snsicon {
+	position: relative;
+}
+
+.facebook {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	margin: 32px 0 0 12px;
+}
+
+.inst {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	margin: 32px  0 0 64px;
+}
+
+.twittr {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	margin: 32px  0 0 116px;
+}
+
+.footericon img{
+	width: 72px;
+	height: 64px;
+	margin: 84px 43px 12px 291px;
+}
+
+.footertext {
+	font-size: 10px;
+	color: #7F5539;
+	background-color: #EDE0D4;
+	border-top: 2px solid #7F5539;
+	text-align: center;
+	padding: 12px 119px;
+}
+
+}
