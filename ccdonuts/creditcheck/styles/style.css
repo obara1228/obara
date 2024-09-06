@@ -1,0 +1,279 @@
+@charset "utf-8";  /* 共有部分 */
+/*ブレイクポイント768px*/
+@media screen and (max-width: 768px) {
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden; /* 横スクロールを禁止 */
+}
+
+body {
+	font-family:'Noto Sans JP',sans-serif;	
+}
+
+
+/* ナビゲーション */
+nav {
+	background-color: #EDE0D4;
+	position: relative;
+}
+
+.menuicon .icon {
+	width: 62px;
+	height: 53px;
+ 	margin:  0 156px 61px 157px;
+	padding: 16px 0 0 0;
+}
+
+.menuicon .rogin{  /*  ログインボタン*/
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	top: 24px;
+	left: 281px;
+}
+
+.menuicon .cart{  /* カートボタン */
+	position: absolute;
+	width: 30px;
+	height: 35px;
+	top: 24px;
+	left: 333px;
+}
+
+.form-box{ /* 検索ボックス */
+	display: flex;
+	border: 2px solid #7f5539;
+	background-color: #FFFFFF;
+	width: 351px;
+	height: 37px;
+	margin: 0 12px;
+}
+
+.form-input{
+	border: none;
+	width: 100%;
+}
+
+.form-button{
+	background-color: #D9D9D9;
+	border: 0 2px 0 0 solid #7f5539;
+}
+
+/* セクション１ */
+.section1 .pan ol { /* ぱんくずメニュー */
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 12px 0 12px 20px;
+	font-size: 12px;
+    border-bottom: 2px solid #7F5539;
+} 
+
+main .section1 .text2 {
+	width: 375px;
+	height: 36px;
+	font-size: 12px;
+	padding: 12px 247px 12px 20px;
+    border-bottom: 2px solid #7F5539;
+}/* 共有終了 */
+
+h1 {  /* 会員登録 */
+	font-size: 20px;
+	color: #000000;
+	border-bottom: 2px solid #FFD233;
+	padding: 32px 0 12px 0;
+	margin: 0 147px 0 148px;
+}
+.hisssu {
+    display: flex;
+}
+.nametext1 {  /* お名前 */
+    font-size: 12px;
+    margin: 40px 0 0 40px;
+    color: #7F5539;
+}
+.name-box {
+	border-left: 2px solid #7f5539;
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 40px 0;
+}
+
+.furigana {  /* お名前（フリガナ） */
+    font-size: 12px;
+    margin: 20px 0 0 40px;
+    color: #7F5539;
+}
+
+.furigana-box {
+	border-left: 2px solid #7f5539;
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 40px 0;
+}
+
+.yuubinntext {  /* 郵便番号 */
+    font-size: 12px;
+    margin: 20px 0 0 40px;
+    color: #7F5539;
+}
+.yuubinn-box {
+    
+
+}
+.yuubinn-box1 {
+	border-left: 2px solid #7f5539;
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 275px 0 40px;
+}
+.yuubinn-box2 {
+
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 171px 0 104px;
+}
+
+.addresstext {  /* 住所 */
+    font-size: 12px;
+    margin: 20px 0 0 40px;
+    color: #7F5539;
+}
+.address-box {
+	border-left: 2px solid #7f5539;
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 40px 0;
+}
+
+.mailtext1 {  /* メールアドレス */
+    font-size: 12px;
+    margin: 20px 0 0 40px;
+    color: #7F5539;
+}
+.mail-box {
+	border-left: 2px solid #7f5539;
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 40px 0;
+}
+
+.mailtext2 {  /* メールアドレス確認用 */
+    font-size: 12px;
+    margin: 20px 0 0 40px;
+    color: #7F5539;
+}
+.mail-box2 {
+	border-left: 2px solid #7f5539;
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 40px 0;
+}
+
+.passwordtext1 {  /* パスワード */
+    font-size: 12px;
+    margin: 20px 0 0 40px;
+    color: #7F5539;
+}
+.passwordtext2 {
+    font-size: 8px;
+    margin: 8px 0 0 40px;
+    color: #FF0000;
+}
+.password-box {
+	border-left: 2px solid #7f5539;
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 40px 0;
+}
+
+.passwordtext3 {  /* パスワード確認用 */
+    font-size: 12px;
+    margin: 20px 0 0 40px;
+    color: #7F5539;
+}
+.password-box2 {
+	border-left: 2px solid #7f5539;
+	background-color: #FFFFFF;
+    color: #000000;
+	margin: 8px 40px 0;
+}
+
+
+.kakuninn {  /* 登録する */
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #7F5539;
+    margin: 40px 107.5px 80px ;
+    padding: 16px 32px;
+    text-align: center;
+
+}
+
+
+.section4 { /* 共有部分 */
+    background-color: #EDE0D4;
+}
+    
+.gaidtext1 {
+    font-size: 12px;
+    color: #7F5539;
+    border-left: 2px solid #B392AC;
+    margin: 20px 243px 0 12px;
+}
+    
+.gaidtext2 {
+    font-size: 12px;
+    color: #7F5539;
+    border-left: 2px solid #B392AC;
+    margin: 20px 243px 0 12px;    
+}
+
+.gaidtext3 {
+    font-size: 12px;
+    color: #7F5539;
+    border-left: 2px solid #B392AC;
+    margin: 20px 243px 0 12px;    
+}
+
+.snsicon {
+    position: relative;
+}
+    
+.facebook {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: 32px 0 0 12px;
+}
+    
+.inst {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: 32px  0 0 64px;
+}
+    
+.twittr {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: 32px  0 0 116px;
+}
+    
+.footericon img{
+    width: 72px;
+    height: 64px;
+    margin: 84px 43px 12px 291px;
+}
+    
+.footertext {
+    font-size: 10px;
+    color: #7F5539;
+    background-color: #EDE0D4;
+    border-top: 2px solid #7F5539;
+    text-align: center;
+    padding: 12px 119px;
+}  
+}  /* 共有終了 */
